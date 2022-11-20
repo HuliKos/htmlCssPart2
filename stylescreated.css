@@ -1,0 +1,77 @@
+* {
+    margin: 0px;
+    font-family: "Courier Prime", monospace;
+    /* box-sizing: border-box; */
+}
+
+h1 {
+    background-color: teal;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 > span {
+    font-size: medium;
+    margin: 0 50px;
+    /* height: 25px;
+    padding:  10px; */
+}
+
+p {
+    margin: 20px 200px;
+}
+
+div {
+    width: 700px;
+    margin: 0 auto;
+}
+
+h2 {
+    margin: 10px auto;
+}
+
+h4 {
+    margin-top: 10px;
+}
+
+p img {
+    float: left;
+}
+
+div >p {
+    text-align: left;
+    width: 800px;
+    margin: 20px auto;
+}
+
+img {
+    border: 5px solid black;
+    height: 225px;
+    margin: 20px;
+
+}
+
+button {
+    background-color: coral;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 15px;
+}
+
+p > span {
+    font-weight: bolder;
+    margin-right: 5px;
+}
+
+
+button {
+    font-weight: bolder;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 15px;
+}
+
+ol, ul {
+    margin-bottom: 10px;
+}
